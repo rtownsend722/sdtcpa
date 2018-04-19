@@ -1,10 +1,27 @@
 {
-  "name": "Stephen Townsend CPA",
+  "name": "sdtcpa",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "webpack --watch"
   },
   "author": "Rebecca L. Townsend",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
 }
