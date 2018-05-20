@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu-item {
+  display: flex;
+  margin: 0 5px;
+}
+
+.banner {
+  background-color: #335145;
+  height: 350px;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}

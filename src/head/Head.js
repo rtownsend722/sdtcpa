@@ -1,25 +1,28 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+
+import banner from '../images/stairsBanner.jpg';
+import './head.css';
 
 export default class Head extends Component {
-
   render() {
-    <div>
-      <div className="menu-container">
-        <button className="menu-item">About</div>
-        <button className="menu-item">Services</div>
-        <button className="menu-item">Calendar</div>
-        <button className="menu-item">Fee Schedule</div>
-        <button className="menu-item">Tools & Links</div>
-        <button className="menu-item menu-item-portal">Client Portal</div>
+    return (
+      <div>
+        <nav className="menu-container">
+          <ul>
+            <li className="menu-item">About</li>
+            <li className="menu-item">Services</li>
+            <li className="menu-item">Fee Schedule</li>
+            <li className="menu-item">Calendar</li>
+            <li className="menu-item">Tools</li>
+            <li className="menu-item portal">Client Portal</li>
+          </ul>
+        </nav>
+        <div className="banner">
+          {{/*working on getting these to show up over banner*/}}
+          <h2>Stephen D. Townsend, C.P.A.</h2>
+          <h4>Helping you reach your goals</h4>
+        </div>
       </div>
-      <div className="banner">
-        <img src="" alt="staircase">
-      </div>
-    {{/*The below may either go inside of the image OR be only on the home page and deleted from this component*/}}
-      <div className="title-container">
-        <h2 className="title">Stephen D. Townsend, C.P.A.</h2>
-        <h4 className="subtitle">Helping you navigate to the top!</h4>
-      </div>
-    </div>
+    );
   }
 }

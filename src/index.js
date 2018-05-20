@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-class App extends Component {
+import Router from './Router';
+import App from './App';
 
-  render() {
-    return (
-      <div>
-        <h1>Hello World</h1>
-      </div>
-    )
-  }
-}
-
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<Router />, document.querySelector('#app'));
