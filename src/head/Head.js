@@ -21,7 +21,7 @@ export default class Head extends Component {
         <div className="banner">
           <div className="banner-content">
             <h1>Stephen D. Townsend, C.P.A.</h1>
-            <h3>Helping you reach your goals</h3>
+            <h3>Getting to the top may look daunting, but we can help.</h3>
           </div>
           <div className="banner-image">
             <img src={require(`../images/stairsBanner.jpg`)} height="350"/>
