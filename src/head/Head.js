@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
-import banner from '../images/stairsBanner.jpg';
+import '../index.css';
 import './head.css';
 
 export default class Head extends Component {
+
   render() {
     return (
       <div>
@@ -18,9 +19,13 @@ export default class Head extends Component {
           </ul>
         </nav>
         <div className="banner">
-          {{/*working on getting these to show up over banner*/}}
-          <h2>Stephen D. Townsend, C.P.A.</h2>
-          <h4>Helping you reach your goals</h4>
+          <div className="banner-content">
+            <h1>Stephen D. Townsend, C.P.A.</h1>
+            <h3>Helping you reach your goals</h3>
+          </div>
+          <div className="banner-image">
+            <img src={require(`../images/stairsBanner.jpg`)} height="350"/>
+          </div>
         </div>
       </div>
     );

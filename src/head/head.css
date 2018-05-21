@@ -14,8 +14,26 @@
 }
 
 .banner {
-  background-color: #335145;
+  display: flex;
+  width: 110%;
   height: 350px;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  margin-left: -1vw;
+  background-color: #335145;
 }
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+  margin: 0 10%;
+  flex: 3;
+}
+
+.banner-image {
+  display: flex;
+  flex: 1;
+  max-width: 100%;
+}
+
+
