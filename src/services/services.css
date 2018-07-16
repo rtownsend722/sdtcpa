@@ -1,0 +1,49 @@
+.container {
+  margin: 0 30px;
+}
+
+.group-title {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.service-item {
+  border: 2px solid black;
+  margin: 5px 0;
+  background-color: #1b2a41;
+}
+
+.service-items {
+  margin: 75px 0;
+}
+
+.service-header {
+  text-align: center;
+}
+
+.service-title {
+  text-align: left;
+  padding-left: 25px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  background-color: #1b2a41;
+  width: 100%;
+}
+
+.service-title:hover {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.service-title:focus {
+  border: none;
+  outline: 0;
+}
+
+.service-description {
+  padding: 0 25px;
+  font-size: 18px;
+  color: white;
+}

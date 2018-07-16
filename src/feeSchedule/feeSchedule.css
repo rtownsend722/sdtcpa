@@ -1,0 +1,37 @@
+.fees-header,
+.fee-list-title {
+  text-align: center;
+}
+
+.fee-list {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 10%;
+}
+
+.fee-list-container {
+  margin-top: 75px;
+}
+
+.fee-list-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.fee-list-fees {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.fee-summary-item {
+  height: 60px;
+  font-size: 18px;
+  margin: -10px 0;
+  list-style-type: none;
+}
+
+.fee-summary-header {
+  font-weight: bold;
+}

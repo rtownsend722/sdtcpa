@@ -1,0 +1,104 @@
+{
+	"taxes": [
+		{
+			"id": 0,
+			"title": "Estate & Trust Tax Preparation",
+			"content":
+				"Effective estate and gift planning facilitates the orderly transfer of assets to your beneficiaries, provides security for your surviving spouse, and can reduce or eliminate the tax due on the transfer of your business and other assets. For business owners, providing for business continuity and succession of ownership is essential. I can guide you through the complex process of getting your financial affairs in order."
+		},
+		{
+			"id": 1,
+			"title": "IRS Representation",
+			"content":
+				"Good bookkeeping and a knowledgeable tax return preparer will help to avoid audit triggers, but in the event that you need to communicate with the IRS, I am able to represent you and your tax position to the authorities to minimize penalties and fines."
+		},
+		{
+			"id": 2,
+			"title": "Sales Tax Services",
+			"content":
+				"Many businesses are responsible for collecting and submitting sales taxes in many different vicinities. I can assist your company in the compilation of information and preparation of sales tax returns in an efficient and timely manner."
+		},
+		{
+			"id": 3,
+			"title": "Tax Planning",
+			"content":
+				"Tax planning is an essential element of the tax preparation process. By making tax planning part of your overall business strategy, you can use our experience and access to the most current new developments in the tax laws to minimize both your current and future tax liabilities."
+		},
+		{
+			"id": 4,
+			"title": "Tax Preparation",
+			"content":
+				"My investment in technology provides me with the ability to accurately and efficiently prepare returns for various types of entities including individuals, corporations, partnerships, trusts, estates, and not-for-profit organizations."
+		}
+	],
+	"accounting": [
+		{
+			"id": 5,
+			"title": "Bookkeeping",
+			"content":
+				"Meaningful, well-organized financial records ensure that your business operations will run more efficiently on a daily basis and are the foundation of a successful business. I can assist you with the day-to-day tasks associated with bookkeeping."
+		},
+		{
+			"id": 6,
+			"title": "Payroll",
+			"content":
+				"As a business grows, it must hire more employees, which can result in increased payroll administration.  I can assist you in implementing the controls necessary to ensure a reliable, efficient, and effective payroll system. I can also help you develop a payroll system and prepare all necessary payroll tax returns in a timely manner."
+		},
+		{
+			"id": 7,
+			"title": "Attestation",
+			"content":
+				"When you need an audit or review of your financial statements, or business activities, I can provide the necessary services, whether they are special purpose or limited reviews or a full audit."
+		}
+	],
+	"consulting": [
+		{
+			"id": 8,
+			"title": "Project Management",
+			"content":
+				"Juggling multiple priorities and projects can detract business owners from effective day-to-day management of their business.  I can assist in managing project timelines, budgets and deliverables in a cost effective and productive manner.  Whether you have staff that needs to be managed, or wish to outsource a project for completion, I can provide the necessary assistance."
+		},
+		{
+			"id": 9,
+			"title": "QuickBooks / ERP Installation",
+			"content":
+				"Managing your businesses financial resources is a vital part of business planning, tax planning, tax reporting and ability to acquire and maintain the best available financing.  I can provide assistance in installing and maintaining Quickbooks or other financial systems that will provide your Company with a competitive edge."
+		},
+		{
+			"id": 10,
+			"title": "Outsourcing",
+			"content":
+				"As businesses grow, the time requirement on business owners grows also. My years of experience in a variety of multi-billion companies makes me uniquely qualified to provide outsourced controllership and CFO functions to your growing business."
+		},
+		{
+			"id": 11,
+			"title": "Business Entity Selection",
+			"content":
+				"Choosing the form of entity that your business will operate as (e.g. 'S' corporation, sole proprietor, limited liability company…) is a crucial decision that can have longstanding tax implications, both positive and negative. I can assist you in evaluating the pros and cons of each entity type to help you determine the most advantageous form of business for your company."
+		},
+		{
+			"id": 12,
+			"title": "Business Succession Planning",
+			"content":
+				"Effective coordination of the transition of your business to your successors is critical to ensure its continued success once you decide to remove yourself from the company's operations. With a solid background in tax and other financial matters, I am fully qualified to address the complex issues of business continuation and can assist you in developing a strategically sound plan."
+		},
+		{
+			"id": 13,
+			"title": "Estate Planning",
+			"content":
+				"Effective estate planning facilitates the orderly transfer of assets to your beneficiaries, provides security for your surviving spouse, and can reduce or eliminate the tax due on the transfer of your business and other assets. For business owners, providing for business continuity and succession of ownership is essential. I can guide you through the complex process of getting your financial affairs in order."
+		},
+		{
+			"id": 14,
+			"title": "Financial Planning",
+			"content":
+				"A properly structured financial plan enables you to face unforeseen financial challenges that may present itself at each stage of your life. Through the financial planning process, I can help you assess your financial needs and develop strategies that will enable you to achieve your goals and strengthen your financial security."
+		},
+		{
+			"id": 15,
+			"title": "Retirement Planning",
+			"content":
+				"Successful implementation and periodic review of your financial plan will ensure financial independence during your working years and through your retirement years."
+		}
+	]
+}

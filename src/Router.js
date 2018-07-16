@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
 // import App from './App';
 import Home from './home/Home';
 import About from './about/About';
@@ -11,17 +10,16 @@ import Tools from './tools/Tools';
 import Err from './err/Err.js';
 
 const Router = () => (
-  <BrowserRouter>
-    <Switch>
-      <Route exact path='/' component={Home} />
-      <Route path='/about' component={About} />
-      <Route path='/calendar' component={Calendar} />
-      <Route path='/feeSchedule' component={FeeSchedule} />
-      <Route path='/services' component={Services} />
-      <Route path='/tools' component={Tools} />
-      <Route component={Err} />
-    </Switch>
-  </BrowserRouter>
+	<BrowserRouter>
+		<Switch>
+			<Route exact path="/" component={Home} />
+			<Route path="/about" component={About} />
+			<Route path="/calendar" component={Calendar} />
+			<Route path="/feeSchedule" component={FeeSchedule} />
+			<Route path="/tools" component={Tools} />
+			<Route component={Err} />
+		</Switch>
+	</BrowserRouter>
 );
 
 export default Router;

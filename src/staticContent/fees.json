@@ -1,0 +1,149 @@
+{
+	"cpa": [
+		{
+			"title": "Bookkeeping",
+			"fee": "$125/hour",
+			"description": [
+				"Simple Compilation of checkbook entries into QuickBooks & bank reconciliations",
+				"Accounts Recievable/Billing",
+				"Accounts Payable/CheckProcessing"
+			]
+		},
+		{
+			"title": "CFO Services",
+			"fee": "$250/hour",
+			"description": [
+				"Financial Statements",
+				"Cash Flows",
+				"Cash Management",
+				"Forecasting and Planning",
+				"Business Planning",
+				"Management Reporting",
+				"Collections",
+				"Inventory Management",
+				"Fixed Asset Management",
+				"Tax Planning & Compliance",
+				"Strategic Planning",
+				"Operation/Process Analysis"
+			]
+		},
+		{
+			"title": "IRS Representation",
+			"fee": "$250/hour",
+			"description": [
+				"Installment Agreements",
+				"Audit Assistance/Support",
+				"Correspondence with IRS",
+				"Offer in Compromise",
+				"Penalty Abatement",
+				"Tax Liens",
+				"Innocent Spouse Relief",
+				"Delinquency Notices"
+			]
+		}
+	],
+	"payroll": [
+		{
+			"multiple": true,
+			"title": "Payroll",
+			"items": [
+				{
+					"title": "Payroll Set-Up",
+					"fee": "$100 base plus $20/employee",
+					"description": []
+				},
+				{
+					"title": "Basic Payroll",
+					"fee": "$30 base plus $2.50/employee",
+					"description": [
+						"Includes calculating gross payroll, witholding, & processing net payroll checks for employees"
+					]
+				},
+				{
+					"title": "Enhanced Payroll",
+					"fee": "$60 base plus $2.50/employee",
+					"description": [
+						"Includes basic payroll plus filing of all Federal and State payroll tax returns, tax deposits, & year-end reporting (W-2's)"
+					]
+				}
+			]
+		}
+	],
+	"summary": [
+		{
+			"title": "CPA Services",
+			"header": true,
+			"fee": "   "
+		},
+		{
+			"title": "Bookkeeping Rate",
+			"fee": "$125/hour"
+		},
+		{
+			"title": "CFO Services",
+			"fee": "$250/hour"
+		},
+		{
+			"title": "IRS Representation",
+			"fee": "$250/hour"
+		},
+		{
+			"title": "QuickBooks Training",
+			"fee": "$150/hour"
+		},
+		{
+			"title": "Tax Return Services",
+			"header": true,
+			"fee": "   "
+		},
+		{
+			"title": "Form 1040",
+			"fee": "$215/return"
+		},
+		{
+			"title": "Form 1040 plus Schedule C",
+			"fee": "$315/return"
+		},
+		{
+			"title": "Form 1120S",
+			"fee": "$400/return"
+		},
+		{
+			"title": "Form 1120",
+			"fee": "$550/return"
+		},
+		{
+			"title": "Form 1065",
+			"fee": "$400/return"
+		},
+		{
+			"title": "Form 1041",
+			"fee": "$500/return"
+		},
+		{
+			"title": "990",
+			"fee": "$500/return"
+		},
+		{
+			"title": "Extentions",
+			"fee": "FREE"
+		},
+		{
+			"title": "Payroll Services",
+			"header": true,
+			"fee": "   "
+		},
+		{
+			"title": "Payroll Set-Up",
+			"fee": "$100 base plus $20/employee"
+		},
+		{
+			"title": "Basic Payroll",
+			"fee": "$30 base plus $2.50/employee"
+		},
+		{
+			"title": "Enhanced Payroll",
+			"fee": "$60 base plus $2.50/employee"
+		}
+	]
+}
