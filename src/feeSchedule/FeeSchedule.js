@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../index.css';
 import Head from '../head/Head';
 import fees from '../staticContent/fees.json';
@@ -8,16 +8,18 @@ const FeeSchedule = () => (
 	<div>
 		<Head />
 		<h1 className="fees-header">Services and Fees</h1>
-		<div>
+		<div className="fee-list-container">
 			<SummaryList data={fees.summary} />
 		</div>
-		<ServicesDetail data={fees.cpa} title="CPA Services" />
-		<ServicesDetail data={fees.payroll} title="Payroll Services" />
+		<div className="services-detail-container">
+			<ServicesDetail data={fees.cpa} title="CPA Services" />
+			<ServicesDetail data={fees.payroll} title="Payroll Services" />
+		</div>
 	</div>
 );
 
 const SummaryList = ({ data }) => (
-	<div className="fee-list-container">
+	<div>
 		<h2 className="fee-list-title">Fees at a Glance</h2>
 		<div className="fee-list">
 			<ul className="fee-list-items">
@@ -47,39 +49,40 @@ const SummaryList = ({ data }) => (
 
 const ServicesDetail = ({ data, title }) => {
 	return (
-		<div>
+		<div className="service-detail">
 			<h2>{title}</h2>
-			{data.map(
-				item =>
-					item.multiple ? (
-						<Multiple items={item.items} title={item.title} />
-					) : (
-						<Single item={item} />
-					)
-			)}
+			{data.map(item => <Single item={item} />)}
 		</div>
 	);
 };
 
-const Multiple = ({ items, title }) => (
-	<div>
-		<h3>{title}</h3>
-		<ul>
-			{items.map(service => (
-				<div>
-					<h4>{service.title}</h4>
-					<p>{service.description ? service.description : ''}</p>
-				</div>
-			))}
-		</ul>
-	</div>
-);
+class Single extends Component {
+	constructor(props) {
+		super(props);
+		this.state = { selected: false };
+		this.handleClick = this.handleClick.bind(this);
+	}
 
-const Single = ({ item }) => (
-	<div>
-		<h3>{item.title}</h3>
-		<ul>{item.description.map(desc => <p>{desc}</p>)}</ul>
-	</div>
-);
+	handleClick() {
+		const { selected } = this.state;
+		this.setState({ selected: !selected });
+	}
+
+	render() {
+		const { item } = this.props;
+		const { selected } = this.state;
+		return (
+			<div>
+				<button className="service-button" onClick={this.handleClick}>
+					{item.title}
+				</button>
+				{selected &&
+					item.description && (
+					<ul>{item.description.map(desc => <p>{desc}</p>)}</ul>
+				)}
+			</div>
+		);
+	}
+}
 
 export default FeeSchedule;

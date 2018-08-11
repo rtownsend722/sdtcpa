@@ -1,17 +1,20 @@
-.fees-header,
-.fee-list-title {
+.fees-header {
   text-align: center;
+}
+
+.fee-list-title {
+  text-align: flex-start;
 }
 
 .fee-list {
   display: flex;
   justify-content: space-between;
   width: 60%;
-  margin-left: 10%;
 }
 
 .fee-list-container {
   margin-top: 75px;
+  margin-left: 10%;
 }
 
 .fee-list-items {
@@ -34,4 +37,22 @@
 
 .fee-summary-header {
   font-weight: bold;
+}
+
+.services-detail-container {
+  margin-top: 75px;
+  margin-left: 10%;
+}
+
+.service-detail {
+  margin-top: 35px;
+}
+
+.service-button {
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
 }
