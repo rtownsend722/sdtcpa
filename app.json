@@ -1,0 +1,14 @@
+{
+  "name": "sdtcpa",
+  "scripts": {},
+  "env": {
+    "PORT": "process.env.port"
+  },
+  "formation": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
