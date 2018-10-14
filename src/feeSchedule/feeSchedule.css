@@ -55,4 +55,9 @@
   font-size: 18px;
   font-weight: bold;
   border: none;
+  outline: none;
+}
+
+.service-button:hover {
+  cursor: pointer;
 }

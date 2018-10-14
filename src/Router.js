@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-// import App from './App';
 import Home from './home/Home';
 import About from './about/About';
 import Calendar from './calendar/Calendar';

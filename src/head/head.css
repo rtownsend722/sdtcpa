@@ -22,6 +22,10 @@
   font-size: 20px;
 }
 
+.menu-item:visited {
+  text-decoration: none;
+}
+
 .portal {
   color: #c0a44a;
 }
@@ -39,7 +43,7 @@
   flex: 3;
   flex-direction: column;
   justify-content: center;
-  align-items:  left;
+  align-items: left;
   margin: 0 10%;
   color: #c0a44a;
 }
@@ -58,5 +62,3 @@ h3 {
   flex: 1;
   max-width: 100%;
 }
-
-
